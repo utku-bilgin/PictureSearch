@@ -14,7 +14,9 @@ function App() {
 
   const ClickButton = () => {
     console.log(text);
-    fetch(`https://api.unsplash.com/search/photos?query=${text}&client_id=m5e5oyp-uyiFPgUfkSpKnstYBzShv088fytRM-53xjc`).then(response => response.json()).then(resault => setImage(resault.results))
+    fetch(`https://api.unsplash.com/search/photos?query=${text}&client_id=m5e5oyp-uyiFPgUfkSpKnstYBzShv088fytRM-53xjc`)
+    .then(response => response.json())
+    .then(resault => setImage(resault.results))
   };
 
   return (

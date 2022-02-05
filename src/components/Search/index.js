@@ -11,7 +11,8 @@ export const Search = ({ textInputFunction, ClickButton }) => {
                 />
                 <button
                     onClick={ClickButton} 
-                    className="btn btn-outline-secondary bg-warning" type="button" 
+                    className="btn btn-outline-secondary bg-warning" 
+                    type="button" 
                     id="button-addon2"
                 >Ara...</button>
             </div>
