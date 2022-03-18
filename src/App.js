@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import './App.css';
 import { Search } from './components/Search';
 import { Card } from './components/Card'
+import 'bootstrap/dist/css/bootstrap.css';
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
 
   return (
     <div>
+      
       <div className="bg-dark">
         <div className="container">
             <div className="row">
@@ -36,6 +38,7 @@ function App() {
             </div>
         </div>
       </div>
+
       <div className="container">
         <div className="row mt-3">
           {img.map((item, index) => (
@@ -46,6 +49,7 @@ function App() {
           ))}
         </div>
       </div>
+
     </div>
   );
 }

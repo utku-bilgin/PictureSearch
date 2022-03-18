@@ -17,4 +17,4 @@ export const Search = ({ textInputFunction, ClickButton }) => {
                 >Ara...</button>
             </div>
     )
-}l
+};
