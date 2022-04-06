@@ -7,9 +7,9 @@ export const Card = ({ item }) => {
                 <img 
                     src={item.urls.small} 
                     className="card-img-top picture" 
-                    alt="..." />
-
+                    alt="..."
+                />
             </div>
         </div>
     )
-}
+};
